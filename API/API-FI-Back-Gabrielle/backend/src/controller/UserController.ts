@@ -1,5 +1,4 @@
 import { UserGAB } from "../entity/UserGab"
-import { Gab } from "../entity/Gab"
 import { AppDataSource } from "../data-source"
 import { Request,  Response } from "express"
 
