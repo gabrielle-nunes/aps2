@@ -1,17 +1,20 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm"
 
 @Entity()
-export class Gab {
+export class GAB {
 
 
     @PrimaryGeneratedColumn()
     id: number;
 
     @Column()
-    curso: string;
+    nome: string;
     
     @Column()
-    campus: string;
+    idade: string;
+
+    @Column()
+    tipoSanguineo: string;
     
     @Column()
     contato:String;
